@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+#map {
+	
+	height: 380px;
+	background-color: #cccccc;	
+	
+}
+body {
+  background-color: #e6ffff;
+}
+/*SOCIAL BUTTONS STARTS*/
+a { 
+	text-decoration: none;
+ }
+.facebook {
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  background-color: #888C90;
+  display: inline-block;
+  color: #B8C0C8;
+  border-radius: 25px;
+  transition-property: background, color;
+  transition-duration: .55s;
+  transition-timing-function: linear;
+  padding: 9px;
+  text-align: center;
+}
+.facebook:hover {
+  background-color: #0A5098;
+  display: inline-block;
+  color: #D3DBE3;
+  border-radius: 10px;
+}
+.vk {
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  background-color: #888C90;
+  display: inline-block;
+  color: #B8C0C8;
+  border-radius: 25px;
+  transition-property: background, color;
+  transition-duration: .55s;
+  transition-timing-function: linear;
+  padding: 9px;
+  text-align: center;
+}
+.vk:hover {
+   background-color: #55779B;
+  display: inline-block;
+  color: #D3DBE3;
+  border-radius: 10px;
+}
+.wiki {
+  margin: 5px;
+  width: 35px;
+  height: 35px;
+  background-color: #888C90;
+  display: inline-block;
+  color: #B8C0C8;
+  border-radius: 25px;
+  transition-property: background, color;
+  transition-duration: .55s;
+  transition-timing-function: linear;
+  padding: 9px;
+  text-align: center;
+}
+.wiki:hover {
+   background-color: #F6F6F6;
+  display: inline-block;
+  color: black;
+  border-radius: 10px;
+}
+
+/*SOCIAL BUTTONS ENDS*/

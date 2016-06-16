@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<!-- Свіжа збірка мінімізованих CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Додаткові теми -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<!-- Свіжа збірка мінімізованої JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="js/script.js" ></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>	
+<div class="container-fluid">	
+	<header>
+		<nav class="navbar navbar-inverse" role="navigation">
+			<ul class="nav navbar-nav">
+		      <li class="active"><a href="#">Home</a></li>
+		      <li><a href="#">Page 1</a></li>
+		      <li><a href="#">Page 2</a></li>
+		      <li><a href="#">Page 3</a></li>
+		    </ul>
+		</nav>
+	</header>
+	<div>
+		<aside class="col-xs-3 col-sm-3 col-md-3 contaside">			
+				<p>
+				АДРЕСА:<br/>
+				Монастир оо. Василіян<br/>
+				вул. Незалежності, 181<br/>
+				м. Івано-Франківськ<br/>
+				76002
+				</p>
+				<p>КОНТАКТИ:<br/>
+				тел. монастиря (0342) 75-11-31<br/>	
+				<a href="mailto:webmaster@example.com">if.osbm@gmail.com</a></p>			
+		</aside>
+		<main class="col-xs-9 col-sm-9 col-md-9">
+			<div id="map"></div>
+		</main>
+		<div class="col-xs-12 col-sm-12 col-md-6 text-center">
+		  <h2>Маршрут з вокзалу</h2>
+		  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Показати опис</button>
+		  <div id="demo" class="collapse">
+		  	<img src="img/track1.JPG" class="img-responsive" style="width:100%; height:350px; padding-top: 10px;" />
+		    <p style="padding-top: 10px;">Для того, щоб доїхати до нашого монастиря Вам потрібно скористатися тролейбусами №2 та №3</p>
+		  </div>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 text-center">
+		  <h2>Маршрут з центру міста(вул.Є.Коновальця)</h2>
+		  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sdemo">Показати опис</button>
+		  <div id="sdemo" class="collapse">
+		  	<img src="img/track2.JPG" class="img-responsive" style="width:100%; height:350px; padding-top: 10px;" />
+		    <p style="padding-top: 10px;">Для того, щоб доїхати до нашого монастиря Вам потрібно скористатися маршрутним таксі яке зупиняється на
+		    вул. Є. Коновальця 52. Маршрутки, які мають пряме сполучення: №35, №30, №26А, №46. А також маршрут №45, проте
+		    Вам потрібно буде зійти на вул.Й.Сліпого на яку виходить тильна сторона монастиря</p>
+		  </div>
+		</div>
+		<div class="clearfix"></div>
+		<footer>
+			<nav>
+				<a href="https://www.facebook.com/khramcarjakhrysta/" class="facebook" target=_blank>f</a>
+	            <a href="http://vk.com/club67116703" class="vk"  target=_blank>vk</a>
+	            <a href="https://uk.wikipedia.org/wiki/%D0%A6%D0%B5%D1%80%D0%BA%D0%B2%D0%B0_%D0%A6%D0%B0%D1%80%D1%8F_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%B0_(%D0%9C%D0%B0%D0%B9%D0%B7%D0%BB%D1%96)" class="wiki" target=_blank>W</a>
+			</nav>
+		</footer>
+	</div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.21
+        &key=AIzaSyCfWULMbECbb7qBd6Mcd3PDaWB3aDBnN9U&callback=initMap&language=ua" async defer></script>
+</body>
+</html>
